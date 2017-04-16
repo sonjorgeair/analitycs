@@ -1,7 +1,8 @@
 package com.alpha.predictor.collector.datasources.webpage;
 
-import com.alpha.predictor.collector.domain.BasicDataContent;
-import com.alpha.predictor.collector.domain.DataContent;
+
+import com.alpha.predictor.domain.BasicDataContent;
+import com.alpha.predictor.domain.DataContent;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.log4j.Logger;

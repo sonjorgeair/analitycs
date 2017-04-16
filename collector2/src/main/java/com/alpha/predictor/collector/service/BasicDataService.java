@@ -2,7 +2,8 @@ package com.alpha.predictor.collector.service;
 
 import com.alpha.predictor.collector.datasources.webpage.BasicWebpageDataSource;
 import com.alpha.predictor.collector.datasources.webpage.WebPageDataSource;
-import com.alpha.predictor.collector.domain.DataContent;
+
+import com.alpha.predictor.domain.DataContent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

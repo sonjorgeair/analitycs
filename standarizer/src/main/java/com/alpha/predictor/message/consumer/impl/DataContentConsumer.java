@@ -1,8 +1,7 @@
-package com.alpha.predictor.collector.message.consumer.impl;
+package com.alpha.predictor.message.consumer.impl;
 
-
+import com.alpha.predictor.collector.domain.DataContent;
 import com.alpha.predictor.collector.message.consumer.Consumer;
-import com.alpha.predictor.domain.DataContent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.annotation.KafkaListener;

@@ -1,9 +1,10 @@
 package com.alpha.predictor.collector;
 
-import com.alpha.predictor.collector.domain.BasicDataContent;
-import com.alpha.predictor.collector.domain.DataContent;
+
 import com.alpha.predictor.collector.message.consumer.impl.DataContentConsumer;
 import com.alpha.predictor.collector.message.producer.impl.DataContentProducer;
+import com.alpha.predictor.domain.BasicDataContent;
+import com.alpha.predictor.domain.DataContent;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

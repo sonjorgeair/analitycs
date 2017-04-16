@@ -1,6 +1,8 @@
 package com.alpha.predictor.collector.datasources.webpage;
 
-import com.alpha.predictor.collector.domain.DataContent;
+
+
+import com.alpha.predictor.domain.DataContent;
 
 import java.io.IOException;
 

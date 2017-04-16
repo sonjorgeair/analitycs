@@ -1,9 +1,8 @@
-package com.alpha.predictor.collector.message.producer.impl;
+package com.alpha.predictor.message.producer.impl;
 
 import com.alpha.predictor.collector.Utils;
-
+import com.alpha.predictor.collector.domain.DataContent;
 import com.alpha.predictor.collector.message.producer.Producer;
-import com.alpha.predictor.domain.DataContent;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,12 +10,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.SendResult;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 import org.springframework.util.concurrent.ListenableFuture;
 import org.springframework.util.concurrent.ListenableFutureCallback;
 
 import java.util.List;
-import java.util.Map;
 
 /**
  * Created by dfs1 on 08-04-17.

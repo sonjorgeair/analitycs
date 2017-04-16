@@ -1,6 +1,5 @@
-package com.alpha.predictor.collector.domain;
+package com.alpha.predictor.domain;
 
-import java.util.List;
 import java.util.Map;
 
 /**
