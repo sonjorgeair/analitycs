@@ -1,8 +1,8 @@
 package com.alpha.predictor.message.producer.impl;
 
-import com.alpha.predictor.collector.Utils;
-import com.alpha.predictor.collector.domain.DataContent;
-import com.alpha.predictor.collector.message.producer.Producer;
+
+import com.alpha.predictor.domain.DataContent;
+import com.alpha.predictor.message.producer.Producer;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,7 +22,8 @@ import java.util.List;
  * Code based on https://www.codenotfound.com/2016/09/spring-kafka-consumer-producer-example.html
  */
 @Component
-public class DataContentProducer implements Producer<DataContent> {
+public class DataContentProducer implements Producer<DataContent>
+{
 
     private static final Logger LOGGER = LoggerFactory.getLogger(DataContentProducer.class);
 

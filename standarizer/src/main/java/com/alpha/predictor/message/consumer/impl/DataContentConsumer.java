@@ -1,7 +1,8 @@
 package com.alpha.predictor.message.consumer.impl;
 
-import com.alpha.predictor.collector.domain.DataContent;
-import com.alpha.predictor.collector.message.consumer.Consumer;
+
+import com.alpha.predictor.domain.DataContent;
+import com.alpha.predictor.message.consumer.Consumer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.annotation.KafkaListener;
@@ -13,7 +14,8 @@ import java.util.concurrent.CountDownLatch;
  * Created by dfs1 on 08-04-17.
  */
 @Component
-public class DataContentConsumer implements Consumer<DataContent> {
+public class DataContentConsumer implements Consumer<DataContent>
+{
 
     private static final Logger LOGGER = LoggerFactory.getLogger(DataContentConsumer.class);
 
